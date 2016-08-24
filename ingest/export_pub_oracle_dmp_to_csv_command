@@ -1,0 +1,57 @@
+-----------------------------------------------------------------------------
+The following command selects non-zero/non-NULL fields from the PUB data dmp
+and exports them to a .csv on disk. Detailed notes on the field selection and
+some documentation on the settings that the command below uses are in the file 
+`ingest_pub_notes`
+-----------------------------------------------------------------------------
+
+SET HEADING OFF;
+SET FEEDBACK OFF;
+SET ECHO OFF;
+SET PAGESIZE 0;
+SET TERMOUT OFF;
+SET LINESIZE 354;
+SET COLSEP ,;
+SPOOL <CSV_FILE_NAME>;
+SELECT
+CVE_PAD,
+PERIODO,
+ID_REGISTRO,
+ID_HOGAR,
+ID_CUIS_PS,
+ID_CUIS_SEDESOL,
+FH_LEVANTAMIENTO,
+ID_PERSONA,
+FH_NACIMIENTO,
+CD_SEXO,
+CD_EDO_NAC,
+CD_EDO_CIVIL,
+CD_DEPENDENCIA,
+CD_INSTITUCION,
+CD_PROGRAMA,
+CD_INTRAPROGRAMA,
+NB_SUBPROGRAMA,
+CD_ENT_PAGO,
+CD_MUN_PAGO,
+CD_LOC_PAGO,
+CD_TP_BENEFICIO,
+IN_TITULAR,
+CD_PARENTESCO,
+CD_TP_BEN_DET,
+NU_BENEFICIOS,
+CD_BENEFICIO,
+NU_IMP_MONETARIO,
+NU_MES_PAGO,
+CVE_LOC,
+CVE_MUN,
+CVE_ENT,
+ID_UNICO
+FROM <TABLE_NAME>;
+SPOOL OFF;
+
+Replace CSV_FILE_NAME and TABLE_NAME in the above command.
+
+Example:
+
+CSV_FILE_NAME: pub_export.csv
+TABLE_NAME   : TU_BORRA_EXPORT_160610_S072

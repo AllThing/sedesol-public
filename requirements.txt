@@ -1,0 +1,17 @@
+#
+####### Requirements for SEDESOL project #######
+#
+######  Packages for data ingestion ######
+argparse
+rarfile
+pyyaml
+
+######  Packages for ML pipeline ######
+luigi
+pandas
+psycopg2
+sklearn
+
+######  Packages for geocoding ######
+googlemaps
+scipy

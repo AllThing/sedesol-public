@@ -1,0 +1,208 @@
+sifode_univ,actualizacion,number,1,,incorporación a sifode
+sifode_univ,afil_imss,number,1,,personas afilidas al imss
+sifode_univ,afil_issste,number,1,,personas afilidas al issste
+sifode_univ,afil_pemex,number,1,,"personas afilidas a pemex, marina o defensa"
+sifode_univ,afil_privado,number,1,,personas afiliadas a una clínica u hospital privado
+sifode_univ,afil_sp,number,1,,personas afilidas al seguro popular.
+sifode_univ,c_cd_edo_civil,number,1,,estado civil
+sifode_univ,c_cd_parentesco,number,2,,parentesco
+sifode_univ,c_con_res,number,2,condición  de residencia,condición de residencia
+sifode_univ,c_integrante,number,30,abierta,número de renglón del integrante en la encuesta
+sifode_univ,c_lengua_ind,number,2,,¿(nombre) habla alguna lengua indígena?
+sifode_univ,c_mot_notr,number,2,,motivo por el que no trabaja todo el año
+sifode_univ,c_pos_ocup,number,2,,ocupación de las personas
+sifode_univ,c_salud_hoga,number,2,,lugar donde se atienden los integrantes del hogar / opción a
+sifode_univ,c_salud_hogb,number,2,,lugar donde se atienden los integrantes del hogar / opción b
+sifode_univ,c_tipo_viv,number,2,,¿su vivienda es …?
+sifode_univ,cruzada,number,1,1,"municipio cruzada nacional contra el hambre (1,012)"
+sifode_univ,disca_gra,number,2,,"grado de la limitación para caminar, moverse, subir o bajar escaleras"
+sifode_univ,disca_ori,number,2,,"origen de la limitación para caminar, moverse, subir o bajar escaleras"
+sifode_univ,discapacidad,number,2,,integrante con algún tipo de limitación (es)
+sifode_univ,discb_gra,number,2,,"grado de la limitación para ver, o solo ve sombras aún usando lentes"
+sifode_univ,discb_ori,number,2,,"origen de la limitación para ver, o solo ve sombras aún usando lentes"
+sifode_univ,discc_gra,number,2,,"grado de la limitación para hablar, comunicarse o conversar"
+sifode_univ,discc_ori,number,2,,"origen de la limitación para hablar, comunicarse o conversar"
+sifode_univ,discd_gra,number,2,,"grado de la limitación para oir, aún usando aparato auditivo"
+sifode_univ,discd_ori,number,2,,"origen de la limitación para oir, aún usando aparato auditivo"
+sifode_univ,disce_gra,number,2,,"grado de la limitación para vestirse, bañarse o comer, desplazarse u otras de cuidado personal"
+sifode_univ,disce_ori,number,2,,"origen de la limitación para vestirse, bañarse o comer, desplazarse u otras de cuidado personal"
+sifode_univ,discf_gra,number,2,,"grado de la limitación para poner atención, aprender cosas, o concentrarse"
+sifode_univ,discf_ori,number,2,,"origen de la limitación para poner atención, aprender cosas, o concentrarse"
+sifode_univ,edad actual,number,2,abierta,edad calculada al 16 de diciembre del 2015
+sifode_univ,ejercicio,number,4,abierta,año fiscal al que corresponde el cuestionario
+sifode_univ,escritura1,number,2,,integrante del hogar que tiene a su nombre las escrituras
+sifode_univ,escritura2,number,2,,integrante del hogar que tiene a su nombre las escrituras
+sifode_univ,estatus_hogar,,,,tipo de hogar
+sifode_univ,habl_esp,number,1,,¿(nombre) también habla español?
+sifode_univ,hogares_m,,1,,hogares con personas únicas
+sifode_univ,ic_ali1,number,1,,indicador de carencia por acceso a la alimentación
+sifode_univ,ic_asalud,number,1,,indicador de carencia por acceso a la salud
+sifode_univ,ic_cv1,number,1,,carencia en la calidad y espacios de la vivienda
+sifode_univ,ic_rezedu,number,1,,indicador de carencia por rezago educativo
+sifode_univ,ic_rezedu_3a15,number,,,personas de 3 a 15 años que no asisten a la escuela y no cuentan con la educación básica obligatoria
+sifode_univ,ic_rezedu_81,number,,,personas de 16 años o más que nacieron antes de 1982  y que no tiene primaria completa.
+sifode_univ,ic_rezedu_82,,,,personas de 16 años o más que nacieron a partir de 1982 y que no tienen secundaria completa.
+sifode_univ,ic_sbv1,number,1,,carencia en el acceso a los servicios básicos de la vivienda
+sifode_univ,ic_ss,number,1,,indicador de carencia por acceso a la seguridad social
+sifode_univ,ic_sspob_am,number,1,,personas de 65 años a mas que no cuentan con acceso a la seguridad social
+sifode_univ,ic_sspob_ocup,number,1,,personas ocupadas que no cuentan con acceso a la seguridad social
+sifode_univ,ic_sspob_otros,number,1,,personas que no pertenecen a los rubros anteriores y que no cuentan con acceso a la seguridad social
+sifode_univ,ic_sspob_pnea,number,1,,personas económicamente no activas que con cuentan con acceso a la seguridad social
+sifode_univ,icv_hac1,number,1,,indicador de carencia por hacinamiento
+sifode_univ,icv_muros1,number,1,,indicador de carencia del material de muros
+sifode_univ,icv_pisos1,number,1,,indicador de carencia del material de piso
+sifode_univ,icv_techos1,number,1,,indicador de carencia del material de techo
+sifode_univ,id_mdm_h,number,14,abierta,"identifica hogares únicos, asignado por rm"
+sifode_univ,id_mdm_p,number,14,abierta,"identifica personas únicas, asignado por rm"
+sifode_univ,in_inter_alim _h,number,1,,"al menos un integrante del hogar recibió/ recibe al menos un apoyo de algún programa alimentario (pal, prospera, pasl, ppam)"
+sifode_univ,in_inter_alim,number,1,,"recibió/ recibe al menos un apoyo de algún programa alimentario (pal, prospera, pasl, ppam)"
+sifode_univ,in_intervenciones,number,1,,recibió/ recibe al menos un apoyo de algún programa
+sifode_univ,in_intervenciones_h,number,1,,al menos un integrante del hogar recibió/ recibe al menos un apoyo de algún programa
+sifode_univ,indigena,number,1,,de acuerdo con la cultura de (nombre) ¿(ella / él) se considera indígena?
+sifode_univ,ingreso_pc,number,1,abierta,ingreso per capita estimado
+sifode_univ,inseg_alim_leve,number,1,,personas con inseguridad alimentaria leve
+sifode_univ,inseg_alim_moderada,number,1,,personas con inseguridad alimentaria moderada
+sifode_univ,inseg_alim_severa,number,1,,personas con inseguridad alimentaria severa
+sifode_univ,isb_agua1,number,1,,indicador de carencia de acceso al agua
+sifode_univ,isb_combus1,number,1,,indicador de carencia de servicio de combustible para cocinar
+sifode_univ,isb_dren1,number,1,,indicador de carencia de servicio de drenaje
+sifode_univ,isb_luz1,number,1,,indicador de carencia de servicio de electricidad
+sifode_univ,llave_hogar_h           ,varchar2,50,abierta,"identifica encuestas únicas, integrado por el o los folios que identifican a una encuesta de manera única declarados por el programa"
+sifode_univ,mun_agricfam,number,1,,municipios solicitados por sagarpa (marzo 2015)
+sifode_univ,niv_ed,number,1,,nivel educativo
+sifode_univ,no_leer_escr,number,1,,lectura y escritura
+sifode_univ,numextnum2,varchar2,50,abierta,número exterior anterior
+sifode_univ,otro_dial,varchar2,100,abierta,especificar la engua indígena (otra)
+sifode_univ,personas_m,,1,,personas únicas
+sifode_univ,pob_extrem,number,1,,población en pobreza extrema   (personas en hogares donde al menos una de ellas es pobre extrema)
+sifode_univ,pob_extrem_alim,number,1,,población en pobreza extrema con carencia de acceso a la alimentación. (personas en hogares donde al menos una de ellas es pobre extrema con carencia de acceso a la alimentación)
+sifode_univ,pob_lb,number,1,,ingreso estimado del hogar por debajo de la línea de bienestar
+sifode_univ,pob_lbm,number,1,,ingreso estimado del hogar por debajo de la línea de bienestar mínimo
+sifode_univ,pobreza,number,1,,población en pobreza ( personas  en hogares donde al menos una de ellas es pobre)
+sifode_univ,proyecto,number,2,,a algún integrante en el hogar le gustaría realizar algún proyecto productivo
+sifode_univ,rn_corett,number,1,,identificación de  localidades con núcleos agrarios.
+sifode_univ,rn_fonhapo,number,1,,susceptible de atención fonhapo (sedatu)
+sifode_univ,rn_pdzp,number,1,,regla del programa - contexto territorial pdzp
+sifode_univ,rn_pei,number,1,,regla del programa - niño susceptible de atender
+sifode_univ,rn_pop,number,1,,regla del programa - contexto territorial pop
+sifode_univ,rn_sagarpa1,number,1,,regla del programa 1 - sagarpa
+sifode_univ,rn_sagarpa2,number,1,,regla del programa 2 - sagarpa
+sifode_univ,rn_sagarpa3,number,1,,regla del programa 3 - sagarpa
+sifode_univ,rn_sagarpa4,number,1,,nombre de asentamiento válido
+sifode_univ,s_c_cd_edo_nac          ,varchar2,2,,entidad federativa de nacimiento
+sifode_univ,s_c_cd_sexo,number,2,,sexo
+sifode_univ,s_c_tipo_asentamiento,number,10,,codificación y descripción  tipo asentamiento humano
+sifode_univ,s_c_tipo_entre_vial_1,number,2,,codificación y descripción entre tipo de vialidad 1
+sifode_univ,s_c_tipo_entre_vial_2,number,2,,codificación y descripción entre tipo de vialidad 2
+sifode_univ,s_c_tipo_vial,number,2,,codificación y descripción tipo de vialidad 2015
+sifode_univ,s_c_tipo_vial_pos,number,2,,codificación  y descripción tipo de vialidad posterior es
+sifode_univ,s_camino                ,varchar2,255,abierta,"nombre compuesto del camino, conforme a la norma técnica sobre domicilios geográficos del inegi"
+sifode_univ,s_carretera             ,varchar2,255,abierta,"nombre compuesto de la carretera, conforme a la norma técnica sobre domicilios geográficos del inegi"
+sifode_univ,s_cp                    ,varchar2,5,abierta,código postal
+sifode_univ,s_cve_ageb,varchar2,5,,clave de ageb
+sifode_univ,s_cve_entidad_federativa,varchar2,2,abierta,clave de entidad
+sifode_univ,s_cve_localidad         ,varchar2,9,abierta,clave de localidad
+sifode_univ,s_cve_manzana,varchar2,6,,clave de manzana
+sifode_univ,s_cve_municipio         ,varchar2,5,abierta,clave de municipio
+sifode_univ,s_desc_ubic             ,varchar2,255,abierta,descripción de la ubicación
+sifode_univ,s_fch_nacimiento        ,date    ,,abierta,fecha de nacimiento
+sifode_univ,s_latitud,number,,abierta,latitud
+sifode_univ,s_letra_ext             ,varchar2,35,abierta,letra exterior
+sifode_univ,s_letra_int             ,varchar2,35,abierta,letra interior
+sifode_univ,s_longitud,number,,abierta,longitud
+sifode_univ,s_nb_curp               ,varchar2,18,abierta,curp
+sifode_univ,s_nb_nombre             ,varchar2,50,abierta,nombre
+sifode_univ,s_nb_primer_ap          ,varchar2,50,abierta,primer apellido
+sifode_univ,s_nb_segundo_ap         ,varchar2,50,abierta,segundo apellido
+sifode_univ,s_nom_entidad_federativa,varchar2,50,abierta,entidad federativa
+sifode_univ,s_nom_localidad         ,varchar2,50,abierta,localidad
+sifode_univ,s_nom_municipio         ,varchar2,50,abierta,municipio o delegación
+sifode_univ,s_nombre_asen           ,varchar2,255,abierta,nombre del asentamiento
+sifode_univ,s_nombre_entre_vial_1   ,varchar2,255,abierta,nombre de vialidad entre la calle 1
+sifode_univ,s_nombre_entre_vial_2   ,varchar2,255,abierta,nombre de vialidad entre la calle 2
+sifode_univ,s_nombre_vial           ,varchar2,255,abierta,nombre de vialidad
+sifode_univ,s_nombre_vial_pos       ,varchar2,255,abierta,nombre de la vialidad la calle de atrás
+sifode_univ,s_num_ext,number,5,abierta,número exterior
+sifode_univ,s_num_int,number,5,abierta,número interior
+sifode_univ,s_tie_curp,number,2,,tiene curp
+sifode_univ,s_tipoloc               ,varchar2,1,,ámbito de la localidad
+sifode_univ,seg_alim,number,1,,personas que cuentan con seguridad alimentaria
+sifode_univ,sit_viv,number,1,,¿la vivienda que habita es…?
+sifode_univ,td_fija,number,5,abierta,total de tiendas fijas  diconsa en la localidad
+sifode_univ,td_movil,number,5,abierta,total de tiendas moviles diconsa en la localidad
+sifode_univ,tiene_disca,number,1,,"integrante con limitación para caminar, moverse, subir o bajar escaleras"
+sifode_univ,tiene_discb,number,1,,"integrante con limitación para ver, o solo ve sombras aún usando lentes"
+sifode_univ,tiene_discc,number,1,,"integrante con limitación para hablar, comunicarse o conversar"
+sifode_univ,tiene_discd,number,1,,"integrante con limitación para oir, aún usando aparato auditivo"
+sifode_univ,tiene_disce,number,1,,"integrante con limitación para vestirse, bañarse o comer, desplazarse u otras de cuidado personal"
+sifode_univ,tiene_discf,number,1,,"integrante con limitación para poner atención, aprender cosas, o concentrarse"
+sifode_univ,u_cdi,number,1,,susceptible de atención cdi
+sifode_univ,u_cdi1,number,1,,susceptible - cdi - paei - asignar beca niños/niñas centro de educación primaria
+sifode_univ,u_cdi2,number,1,,susceptible - cdi - paei - asignar beca niños/niñas/jovenes centro de educación secundaria
+sifode_univ,u_cdi3,number,1,,susceptible - cdi - proin- subisidio proyectos productivos
+sifode_univ,u_cdi4,number,1,,regla del programa cdi
+sifode_univ,u_cdi5,number,1,,susceptible de atención cdi
+sifode_univ,u_cdi_6,number,1,,susceptible de atención cdi
+sifode_univ,u_conavi,number,1,,susceptible de atención comisión nacional de vivienda total
+sifode_univ,u_conavi1,number,1,,susceptible de atención comisión nacional de vivienda 1
+sifode_univ,u_conavi2,number,1,,susceptible de atención comisión nacional de vivienda 2
+sifode_univ,u_conavi3,number,1,,susceptible de atención comisión nacional de vivienda 3
+sifode_univ,u_corett,number,1,,susceptible de atención de la comisión nacional para la regulación de la tenencia de la tierra
+sifode_univ,u_fonart,number,1,,susceptible de atención fondo nacional para el fomento de las artesanías total
+sifode_univ,u_fonart1,number,1,,susceptible - fonart - proyectos productivos
+sifode_univ,u_fonart1_a,number,1,,susceptible - fonart - proyectos productivos  - concuros de arte popular
+sifode_univ,u_fonart2,number,1,,susceptible - fonart - proyectos productivos - salud ocupaciona
+sifode_univ,u_fonart3,number,1,,susceptible - fonart - proyectos productivos - apoyo capacitación
+sifode_univ,u_fonhapo,number,1,,susceptible de atención fideicomiso fondo nacional de habitaciones populares (sedatu)
+sifode_univ,u_fonhapo1,number,1,,susceptible  - pvd/ pvr - piso firme
+sifode_univ,u_fonhapo2,number,1,,susceptible  - pvd/ pvr - techo firme
+sifode_univ,u_fonhapo3,number,1,,susceptible - pvd/pvr - muro firme
+sifode_univ,u_fonhapo4,number,1,,susceptible - pvd/ pvr - cuarto adicional
+sifode_univ,u_fonhapo5,number,1,,susceptible - pvd/ pvr - construir vivienda básica rural
+sifode_univ,u_fonhapo6,number,1,,susceptible - pvd/ pvr -letrinas /baño ecologicos/ biodigestores para viviendas
+sifode_univ,u_imjuve,number,1,,susceptible  - imjuve - proyectos sociales de colectivos y grupos juveniles
+sifode_univ,u_inea,number,1,,susceptible de atención instituto nacional para la educación de los adultos total
+sifode_univ,u_inea1a,number,1,,susceptible de atención instituto nacional para la educación de los adultos 1a
+sifode_univ,u_inea1b,number,1,,susceptible de atención instituto nacional para la educación de los adultos 1b
+sifode_univ,u_inea2a,number,1,,susceptible de atención instituto nacional para la educación de los adultos 2a
+sifode_univ,u_inea2b,number,1,,susceptible de atención instituto nacional para la educación de los adultos 2b
+sifode_univ,u_inea3a,number,1,,susceptible de atención instituto nacional para la educación de los adultos 3a
+sifode_univ,u_liconsa,number,1,,susceptible de atención del programa de abasto social de leche (tablero ii)
+sifode_univ,u_paja,number,1,,susceptible de atención del programa de atención a jornaleros agrícolas
+sifode_univ,u_pdzp,number,1,,susceptible de atención del programa para el desarrollo de zonas prioritarias
+sifode_univ,u_pdzp1,number,1,,susceptible - pdzp - piso firme
+sifode_univ,u_pdzp10,number,1,,susceptible - pdzp -  drenaje
+sifode_univ,u_pdzp11,number,1,,susceptible - pdzp -  captadores de agua
+sifode_univ,u_pdzp2,number,1,,susceptible - pdzp - techo firme/ resistente
+sifode_univ,u_pdzp3,number,1,,susceptible - pdzp - muro firme/ resistente
+sifode_univ,u_pdzp4,number,1,,susceptible - pdzp -  obras para dotar de energía eléctrica
+sifode_univ,u_pdzp5,number,1,,susceptible - pdzp -  celdas solares
+sifode_univ,u_pdzp6,number,1,,susceptible - pdzp -  estufas ecológicas
+sifode_univ,u_pdzp7,number,1,,susceptible - pdzp -  letrinas/ baño ecológico/ biodigestores
+sifode_univ,u_pdzp8,number,1,,susceptible - pdzp -  cuarto adicional
+sifode_univ,u_pdzp9,number,1,,susceptible - pdzp -  red agua potable
+sifode_univ,u_pei,number,1,,susceptible de atención programa de estancias infantiles
+sifode_univ,u_pet,number,1,,susceptible de atención del programa de empleo temporal (sedesol)
+sifode_univ,u_pop,number,1,,susceptible de atención del programa de opciones productivas
+sifode_univ,u_ppam,number,1,,susceptible de atención del programa pensión para adultos mayores
+sifode_univ,u_prospera,number,1,,susceptible de atención prospera
+sifode_univ,u_psvjf,number,1,,susceptible de atención del programa seguro de vida para jefas de familia
+sifode_univ,u_sagarpa,number,1,,"susceptible de atención secretaría de agricultura, ganadería, desarrollo rural, pesca y alimentación total"
+sifode_univ,u_sagarpa1,number,1,,"susceptible de atención secretaría de agricultura, ganadería, desarrollo rural, pesca y alimentación 1"
+sifode_univ,u_sagarpa2,number,1,,"susceptible de atención secretaría de agricultura, ganadería, desarrollo rural, pesca y alimentación 2"
+sifode_univ,u_salud,number,1,,susceptible de atención salud - seguro popular
+sifode_univ,u_sct,number,1,,susceptible de atención sct - programa empleo temporal
+sifode_univ,u_se1,number,1,,susceptible  - inaes - proyectos productivos
+sifode_univ,u_semarnat,number,1,,susceptible  de ser atendido por secretaría del medio ambiente y recursos naturales
+sifode_univ,u_semarnat1,number,1,,"susceptible - procodes -  estufas ecológicas / fogones fortalecimiento/seguimiento/acompañamiento de proyectos productivos proyectos productivos capacitar para la producción/ administración/ fortalecimiento empresarial /orientación productiva"
+sifode_univ,u_semarnat2,number,1,,susceptible - provicom - proyectos productivos
+sifode_univ,u_semarnat3,number,1,,susceptible de programa empleo temporal (semarnat)
+sifode_univ,u_sep,number,1,,susceptible de atención sep total
+sifode_univ,u_sep1,number,1,,susceptible de atención sep 1
+sifode_univ,u_sep2,number,1,,susceptible de atención sep 2
+sifode_univ,u_sep3,number,1,,susceptible de atención sep 3
+sifode_univ,u_stps,number,1,,todos los susceptible de atención secretaría del trabajo y previsión social
+sifode_univ,u_stps1,number,1,,susceptible de movilidad laboral sector agrícola
+sifode_univ,u_stps2,number,1,,susceptible de fomento autoempleo/ becate
+sifode_univ,u_stps3,number,1,,susceptible de atención secretaría del trabajo y previsión social
+sifode_univ,val_nb_renapo,number,2,,validación de curp con renapo

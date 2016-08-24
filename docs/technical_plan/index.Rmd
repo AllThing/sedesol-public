@@ -1,0 +1,23 @@
+---
+title: "Enhancing the Distribution of Social Services in Mexico"
+author: Fernanda Alcala-Durand, Diego Garcia-Olano, Mobin Javed, Kris Sankaran, Adolfo De Unanue, Paul van der Boor,  Eric Potash
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    split_bib: false
+documentclass: memoir
+biblio-style: apalike
+github-repo: dssg/sedesol
+bibliography: [technical_plan.bib]
+link-citations: yes
+---
+
+[comment1]: <> (This is R Markdown code for our Technical Plan.
+              To compile the whole document, press the "Build Book" button
+              from the index document.)
+
+[comment2]: <> (I have copied the info from DSSG page
+              And the basic structure from the sample technical plan
+              we got from Paul:
+              https://drive.google.com/file/d/0Bwse3HJLrt9pMVhWSVJSODVCcU0/view)

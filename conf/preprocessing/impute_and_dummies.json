@@ -1,0 +1,13 @@
+{
+    "impute_categorical": {
+	"strategy": "missing_category"
+    },
+    "impute_numeric": {
+	"strategy": "median",
+	"axis": 0
+    },
+    "get_dummies": {
+	"drop_first": true
+    },
+    "standard_scaler": "pass"
+}

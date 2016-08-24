@@ -1,0 +1,56 @@
+#in /mnt/data/sedesol/db_creation
+#run the following to create the tables of the data we have initially been given.
+
+#create table sql files
+head ../CONEVAL/pobreza_14.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_pobreza.csv  
+head ../CUIS/DOMICILIO_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_domicilio_a.csv
+head ../CUIS/ENCUESTA_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_encuesta.csv
+head ../CUIS/INTEGRANTE_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_integrante.csv
+head ../CUIS/PERSONA_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_persona_a.csv
+head ../CUIS/SE_INTEGRANTE_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_se_integrante.csv
+head ../CUIS/SE_VIVIENDA_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_se_vivienda.csv
+head ../CUIS/VISITA_ENCUESTADOR_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_visita_encuestador.csv
+head ../CUIS/VIVIENDA_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > cuis_vivienda.csv
+head ../Geocode/geocoding_geo_id.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > geocode_geo.csv
+head ../IMSS/salario_imss_A.csv |  tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > imss_salario.csv
+head ../PUB/PUB_subset.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > pub_sub.csv
+head ../SIFODE/SIFODE19_2_INT_VF_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > sifode_int.csv
+head ../SIFODE/SIFODE19_2_UNIV_VF_A.csv | tr [:upper:] [:lower:] | tr ' ' '_' | csvsql -i postgresql > sifode_univ.csv
+
+#HERE I ran vim over the newly created csv files to change "stdin" to the schema.table_name where I wanted that file's contents to go, 
+#and I also changed all field declarations within the files to be of type VARCHAR ( as csvsql didn't do a good job of inferring things )
+#TODO, turn these vim actions into sed commands so that we can through this file into a .sh bash script that we may then run if/when we get new data
+
+#Create New Tables in postgres
+psql -h postgres.dssg.io -U sedesol -W -f coneval_pobreza.sql 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_domicilio_a.csv 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_encuesta.csv 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_integrante.csv 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_persona_a.csv 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_se_integrante.csv 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_se_vivienda.csv 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_visita_encuestador.csv 
+psql -h postgres.dssg.io -U sedesol -W -f cuis_vivienda.csv 
+psql -h postgres.dssg.io -U sedesol -W -f geocode_geo.csv 
+psql -h postgres.dssg.io -U sedesol -W -f imss_salario.csv 
+psql -h postgres.dssg.io -U sedesol -W -f pub_sub.csv 
+psql -h postgres.dssg.io -U sedesol -W -f sifode_int.csv 
+psql -h postgres.dssg.io -U sedesol -W -f sifode_univ.csv 
+
+#Fill Tables With Data
+cat ../CONEVAL/pobreza_14.csv | psql -c "\copy sedesol_schema.coneval_pobreza from stdin with csv header;" 
+cat ../CUIS/DOMICILIO_A.csv | psql -c "\copy sedesol_schema.cuis_domicilio from stdin with csv header;"
+cat ../CUIS/ENCUESTA_A.csv | psql -c "\copy sedesol_schema.cuis_encuesta from stdin with csv header;"
+cat ../CUIS/INTEGRANTE_A.csv | psql -c "\copy sedesol_schema.cuis_integrante from stdin with csv header;"
+cat ../CUIS/PERSONA_A.csv | psql -c "\copy sedesol_schema.cuis_persona from stdin with csv header;"
+cat ../CUIS/SE_INTEGRANTE_A.csv | psql -c "\copy sedesol_schema.cuis_se_integrante from stdin with csv header;"
+cat ../CUIS/SE_VIVIENDA_A.csv | psql -c "\copy sedesol_schema.cuis_se_vivienda from stdin with csv header;"
+cat ../CUIS/VISITA_ENCUESTADOR_A.csv | psql -c "\copy sedesol_schema.cuis_visita_encuestador from stdin with csv header;"
+cat ../CUIS/VIVIENDA_A.csv | psql -c "\copy sedesol_schema.cuis_vivienda from stdin with csv header;"
+cat ../Geocode/geocoding_geo_id.csv | psql -c "\copy sedesol_schema.geo_cuis from stdin with csv header;"
+cat ../IMSS/salario_imss_A.csv | psql -c "\copy sedesol_schema.imss_salario from stdin with csv header;"
+cat ../SIFODE/SIFODE19_2_INT_VF_A.csv | psql -c "\copy sedesol_schema.sifode_int from stdin with csv header;"
+cat ../SIFODE/SIFODE19_2_UNIV_VF_A.csv | psql -c "\copy sedesol_schema.sifode_univ from stdin with csv header;"
+cat PUB_subset_withcommas.csv | psql -c "\copy sedesol_schema.pub_sub from stdin with csv header;"
+
+#The PUB was actually | delimited so I created PUB_subset_withcommas.csv by just replacing the | with , in PUB_subset.csv

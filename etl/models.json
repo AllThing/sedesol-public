@@ -1,0 +1,20 @@
+{
+    "ridge": {
+	"params": {
+            "alpha": "[1e-8, 1e-6, 1e-4, 1e-2]"
+	},
+	"metrics": "rmse, mae, enigh_income_precision_and_recall"
+    },
+    "tree_reg": {
+	"params": {
+	    "criterion": "['mse']"
+	},
+	"metrics": "rmse, mae, enigh_income_precision_and_recall"
+    },
+    "rf_reg": {
+	"params": {
+            "n_estimators": "[5, 10]"
+	},
+	"metrics": "rmse, mae, enigh_income_precision_and_recall"
+    }
+}

@@ -1,0 +1,5 @@
+CONNECTION_HOST: "dbhost"
+CONNECTION_PORT: "12344"
+TUNNEL_HOST: "cluster.something"
+TUNNEL_USER: "username"
+KEY: "path_to_ssh_key"

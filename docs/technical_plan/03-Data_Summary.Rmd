@@ -1,0 +1,93 @@
+# Data Summary
+
+We have incorporated many different data sources into our work, both provided
+by the partner and publicly available. In this section we give an overview of 
+the content of every one of these databases and how they are joined amongst 
+them to yield semantic tables ready for modeling.
+
+## Data Sources
+
+The deliverable relies on the following data sources:
+
+### Beneficiary Socio-Economic Enrollment Data
+
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| Data              | Owner               | Provides                         | Time Span    |Comments                             |
++===================+=====================+==================================+==============+=====================================+
+| PUB               |  SEDESOL            | Beneficiary information about    | 2015         |                                     |
+|                   |                     | type and amount of benefits      | last quarter |                                     |
+|                   |                     | received, for all programs.      |              |                                     |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| CUIS              |  SEDESOL            | Detailed socioeconomic info at   | 2010-2015    | Comprised by 8 different tables:    |
+| CUIS              |  SEDESOL            | household and individual level   |              |                                     |
+|                   |                     | for beneficiaries who have taken |              |  * Encuesta                         |
+|                   |                     | the CUIS survey.                 |              |  * Integrante                       |
+|                   |                     |                                  |              |  * Persona                          |
+|                   |                     |                                  |              |  * Socioeconómico Integrante        |
+|                   |                     |                                  |              |  * Socioeconómico Vivienda          |
+|                   |                     |                                  |              |  * Visita Encuestador               |
+|                   |                     |                                  |              |  * Domicilio                        |
+|                   |                     |                                  |              |  * Vivienda                         |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| Home Verification |  SEDESOL            | Verification of CUIS responses   | 2013-2014    |                                     |
+| Module            |                     | (surveyor's observations).       |              |                                     |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| SIFODE            |  SEDESOL            | Beneficiary's poverty indicators | 2010-2015    | Comprised by 2 different tables:    |
+|                   |                     | and (possibly) received programs,|              |                                     |
+|                   |                     | Social Targeting System.         |              |  * Intervenciones                   |
+|                   |                     |                                  |              |  * Universo                         |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| IMSS PROSPERA     |  SEDESOL            | Official income figures from the | 2011-2015    |                                     |
+|                   |                     | Social Security Institute for a  |              |                                     |
+|                   |                     | subset of PROSPERA beneficiaries.|              |                                     |
++-------------------+---------------------+----------------------------------+----------------------------------------------------+
+
+### Geo-Spatial Data
+
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| Data              | Owner               | Provides                         | Time Span    | Comments                            |
++===================+=====================+==================================+==============+=====================================+
+| PUB and CUIS      | SEDESOL             | Household addresses of current   | 2010-2015    | Not linkable to main PUB or CUIS    |
+| addresses         |                     | and potential beneficiaries.     |              | databases, SEDESOL only provides    |
+|                   |                     |                                  |              | block-level given prior geolocation.|
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| Census            | Publicly available  | Geospatial Data: Roads/Highways, | 2015         |                                     |
+| Shape Files       | data (INEGI)        | Manzanas, Localidades,           |              |                                     |
+|                   |                     | Municipalities, States.          |              |                                     |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| DENUE             | Publicly available  | National Statistical Directory   | 2016         |                                     |
+|                   | data (INEGI)        | of Economic Units.               |              |                                     |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+
+### Complementary Data
+
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| Data              | Owner               | Provides                         | Time Span    | Comments                            |
++===================+=====================+==================================+==============+=====================================+
+| CONEVAL - ENIGH   | Publicly available  | Representative households with   | 2014         |                                     |
+|                   | data (INEGI)        | income and socioeconomic info.   |              |                                     |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+| 2010 Census       | Publicly available  | Population Census Data           | 2010, 2015   |                                     |
+|2015 Partial Census| data (INEGI)        |                                  |              |                                     |
++-------------------+---------------------+----------------------------------+--------------+-------------------------------------+
+
+## Organization of the Database
+
+As a first step, all the raw files are transformed from their original formats, which range from `.dbf` files to Oracle dumps, to a common `.csv` format that can be uploaded to PostgreSQL.
+
+Next, a cleaning step is performed. This is executed via SQL queries that take care of a variety of issues, such as:
+
+* Making sure that dates that appear as strings are converted to datetime format
+* Properly mapping binary variables to boolean
+* Trimming leading spaces possibly caused by file type changes
+* Mapping text comments that imply missing data, such as "SIN INFORMACION", "NINGUNO" to `NULL` values
+* Casting numeric variables as their correct type
+
+Once clean tables are available, we execute the joins which result in the semantic tables that will be used for feature generation and, ultimately, modeling. There are two different semantic tables, both at transaction level:
+
+1. Individual programs and socio-economical data: joining all the different CUIS, PUB, SIFODE tables, IMSS data, and the block information provided by SEDESOL after delivering geocoding results.
+2. ENIGH: all the different ENIGH tables, which include more granular information about income and expense of representative households.
+
+## Data Storage
+
+The data will be stored in a PostgreSQL database. We chose PostgreSQL as a back-end system because Relational Database Managers are very widespread and facilitate the process of accessing and analyzing data. PostgreSQL also natively supports PostGIS spatial objects and JSON, which is important because many of our input data sources, namely shape files, contain spatial data. We are also saving model parameters and results in JSON format.

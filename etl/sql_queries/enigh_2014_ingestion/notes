@@ -1,0 +1,148 @@
+ENIGH 2014 URL:
+http://www3.inegi.org.mx/sistemas/microdatos/micdirecto.aspx?s=est&c=34527
+
+
+CSV FILES FOR ALL 12 ENIGH:
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_vivi_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_hogares_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_poblacion_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_trabajos_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_erogaciones_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_gastohogar_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_gastopersona_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_gastotarjetas_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_ingresos_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_agropecuario_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_noagropecuario_2014_concil_2010_csv.zip&ht=02
+http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=/contenidos/proyectos/enchogares/regulares/enigh/nc/2014/microdatos/ncv_concentrado_2014_concil_2010_csv.zip&ht=02
+
+
+DATA docs
+1) Descripción de la base de datos
+	WEBPAGE: http://www3.inegi.org.mx/sistemas/biblioteca/ficha.aspx?upc=702825070373
+	PDF: http://internet.contenidos.inegi.org.mx/contenidos/productos//prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825070373.pdf
+
+2) Cuestionarios (ZIP) 
+	http://www3.inegi.org.mx/sistemas/microdatos/descargas.aspx?sr=microdatos_archivos/enigh/new/2014/ncv/doc/cuest_ncv2014.zip&ht=01
+
+3) Metadatos (estándar DDI) 
+	http://www3.inegi.org.mx/rnm/index.php/catalog/165
+
+
+LIST OF TABLES ( 12 split up by granularity:  a)Housing level, b) Home level, and c)Person level )
+1.3.1 Tablas (archivos de datos)
+
+	-Tabla con información de las viviendas ( HOUSING LEVEL TABLES )
+		1) VIVIENDAS - Contiene las características de las viviendas que se captaron en la sección I del CUESTIONARIO DE HOGARES Y VIVIENDA, 
+			      el recuento de los residentes y los hogares de la vivienda, la ubicación y el diseño muestral correspondiente a ésta.
+					** Housing characteristics, includes expansion factor   ( 19124 x 64 )  
+
+
+	-Tablas con información de los hogares  ( HOME LEVEL TABLES )
+		2) HOGARES - Se integra con información sobre los huéspedes y trabajadores domésticos del hogar, el acceso a la alimentación de los integrantes del hogar, 
+			el equipamiento del hogar, el tiempo de traslado al hospital, los hábitos de consumo del hogar y las estimaciones de gasto en alimentos y trasporte. 
+			Ésta se capta en las secciones II, IV, V y VI del CUESTIONARIO DE HOGARES Y VIVIENDA y en el CUADERNILLO DE GASTOS DIARIOS. 
+			También contiene el factor de expansión del hogar.
+					** Home level characteristics from survey, includes expansion factor. ( 19479   x 121 )
+
+		3) GASTOSHOGAR - Contiene los gastos monetarios y no monetarios que realizó el hogar en el periodo de referencia, así como la estimación del alquiler, que fueron captados en el 				   CUESTIONARIO DE GASTOS DEL HOGAR, en el CUADERNILLO DE GASTOS DIARIOS y en el CUESTIONARIO DE HOGARES Y VIVIENDA .
+					** Home expenses (rent estimation, etc )   ( 1191694 x  25 )
+					
+		4) EROGACIONES - Erogaciones financieras y de capital captadas en el apartado 3.5 de la sección III del CUESTIONARIO DE GASTOS DEL HOGAR.
+					** financial and capital disbursements     ( 19479   x 127 )
+
+		5) GASTOTARJETAS - Gastos realizados por el hogar y que fueron cubiertos mediante alguna tarjeta de crédito bancaria y/o comercial. Éstos fueron captados al final de cada apartado del 				     CUESTIONARIO DE GASTOS DEL HOGAR y en la sección 2 del CUADERNILLO DE GASTOS DIARIOS.
+					** Home expenses that we covered via a banking credit card ( 3036 x 6 )
+
+
+	-Tablas con información de las personas  ( PERSON LEVEL TABLES)
+		6) POBLACION - Características sociodemográficas y ocupacionales de los integrantes del hogar. 
+			       Esta información se capta en la sección III del CUESTIONARIO DE HOGARES Y VIVIENDA, en los apartados 1.1 y 6.2 y 
+			       secciones VIII, IX y X del CUESTIONARIO PARA PERSONAS DE 12 O MÁS AÑOS y en la sección II del CUESTIONARIO PARA PERSONAS MENORES DE 12 AÑOS.
+					** Socio-economic and occupational characteristics of person ( 73592   x 177 )
+
+		7) INGRESOS - Ingresos y percepciones de capital de cada uno de los integrantes del hogar, captados en los apartados referentes al ingreso en el 
+			      CUESTIONARIO PARA PERSONAS DE 12 O MÁS AÑOS y en el CUESTIONARIO PARA PERSONAS MENORES DE 12 AÑOS, 
+			      así como los calculados a partir de la información del CUESTIONARIO PARA NEGOCIOS DEL HOGAR.
+					** Income and perceived capital for person ( 89147   x  17 ) 
+
+		8) GASTOSPERSONA - Contiene los gastos monetarios y no monetarios asociados a los integrantes del hogar en el periodo de referencia y 
+				        que fueron captados en el CUESTIONARIO DE GASTOS DEL HOGAR y en el CUADERNILLO DE GASTOS DIARIOS.
+					** Person level expenses ( 111786  x  18 ) 
+
+		9) TRABAJOS - Condición de actividad de los integrantes del hogar de 12 o más años. Se integra con información captada en el CUESTIONARIO PARA PERSONAS DE 12 O MÁS AÑOS.
+					** Activity Level ( work? ) at the person level ( 35411   x  52 )
+
+		10) AGRO - Ingresos y gastos de los negocios del hogar dedicados tanto a las actividades agrícolas, forestales y de tala, como a actividades de cría, 
+		       	    explotación y productos derivados de la pesca y caza. Esta información se capta en el CUESTIONARIO PARA NEGOCIOS DEL HOGAR.
+					** Income and Expenses of home businesses dedicted to agriculture ( 3443    x  47 )
+	
+		11) NOAGRO - Ingresos y gastos de los negocios del hogar dedicados a las actividades industriales, comerciales y de servicios, y sus características propias. 
+			    Esta información se capta en el CUESTIONARIO PARA NEGOCIOS DEL HOGAR.
+					** Non Agriculture Home business incomes and expenses
+
+
+	-Tabla resumen con información a nivel hogar  ( HOME LEVEL )  
+		12) CONCENTRADOHOGAR - Esta tabla contiene las variables construidas, a partir de las 11 tablas de la base de datos, 
+			    que permiten tener agrupada la información con la cual se obtienen **los principales tabulados que el INEGI construye**.
+					** Home Concentrated:  this table is constructed from the prior 11 tables, and just selects the columns which align with INEGI )
+
+
+
+UNITS OF ANALYSIS ( housing, home, person ) AND JOINING RULES:
+	Las unidades de análisis para la ENIGH son la vivienda, el hogar y los integrantes del hogar; 
+
+	para poder hacer una correcta explotación de la base de datos se debe considerar lo siguiente:
+
+		1) Todas las tablas (excepto VIVIENDAS) se relacionan con la tabla de HOGARES mediante los campos llave folioviv y foliohog; 
+			**ALL TABLES ( except Viviendas ) relate to the Hogares table via the "foloviv" and "foliohog" fields
+
+		2) adicionalmente las tablas que contienen información a nivel integrante del hogar se relacionan con la tabla POBLACION 
+			con el campo llave numren que identifica a cada integrante del hogar.
+			**ALL PERSON LEVEL TABLES relate to the Poblacion table via the "numren" field which identifies every person in the house 
+
+
+	"Folioviv" (Folio de la vivienda:  ** HOUSING ID:  )
+		Consta de 10 dígitos: 										**folioviv is composed of 10 digits
+			a) dos dígitos con la clave de la entidad federativa,  					** 2 digits for State ID
+			b) uno con el ámbito (urbano, código diferente a 6; rural, código 6), 			** 1 digit for Urban/Rural ( rural = 6, urban is another number ) 
+			c) cuatro dígitos del número consecutivo de la upm (unidad primaria de muestreo), 	** 4 digits for the upm ( primary sampling unit?)
+			d) un dígito de la decena de levantamiento 						** 1 digit number of what survey it was from upm ( 0 - 9 ? ) 
+			e) dos dígitos con un número consecutivo para la vivienda seleccionada.			** 2 digits with a consecutive number for the housing unit selected
+
+	"Foliohog" (Folio del hogar:   ** HOME ID to identify homes within a Housing unit.  Number 1 - 5.  1 to principal home (who took the first survey) or 2 - 5 for other homes )
+		Dígito para identificar a los hogares en la vivienda: 
+			se asigna 1 al hogar principal (el que inicialmente atendió la entrevista) o cuando en la vivienda sólo habita un hogar; 
+			cuando se detecten varios hogares (hogares adicionales) se les asignan dígitos del 2 al 5.
+
+	"Numren" (Número de renglón:   ** PERSON ID)
+		Es el número de identificación único para cada integrante del hogar 
+		(es el número del renglón del cuestionario en el que se captó la información del mismo).
+
+
+FACTOR EXPANSION
+
+	Al ser una encuesta muestral se debe de contar con un ponderador, éste es el factor de expansión, 
+	que se interpreta como la cantidad de viviendas (hogares o personas) en la población, que representa una vivienda en la muestra.
+		
+
+	En la ENIGH 2014 hay dos factores de expansión, 
+		1) uno asociado a la vivienda, que se encuentra en la tabla VIVIENDAS y 
+		2) otro asociado al hogar, que se encuentra en la tabla HOGARES.
+
+	Para obtener cualquier tipo de información se requiere multiplicar el valor de la variable en estudio, por el factor mencionado de acuerdo con el nivel al cual esté asociada.
+
+RELATION BETWEEN TABLES
+
+	La información contenida en las tablas se puede relacionar con la información de otra tabla o con la de varias tablas existentes de la Base de Datos, 
+	esto es posible hacerlo una vez que se han identificado los campos llave, 
+	y se hace por medio de los registros que cumplan con la condición de tener la misma información en los campos llave de las tablas a relacionar.
+
+	Para relacionar la información contenida en las tablas de la Base de Datos de la nueva construcción de variables de la ENIGH, 
+	se tiene que identificar si la tabla contiene información correspondiente al HOGAR o al INTEGRANTE del HOGAR. 
+	De acuerdo con ese criterio se identifican los campos llave, y se hace empatar los registros que cumplan con la condición de tener 
+	la misma información en los campos llave de las tablas a relacionar.
+
+	Las tablas con información relativa a los HOGARES son:  HOGARES, GASTOSHOGAR, EROGACIONES y GASTOTARJETAS.
+	Las tablas con información por INTEGRANTE del hogar (por persona) son:  POBLACION, INGRESOS, GASTOSPERSONA, TRABAJOS, AGRO y NOAGRO.
+	Los tipos de análisis que se pueden hacer en función de los registros son:	1) De uno a uno.  2) De uno a varios.

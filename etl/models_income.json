@@ -1,0 +1,14 @@
+{
+    "tree_reg": {
+	"params": {
+	    "criterion": "['mse']"
+	},
+	"metrics": "rmse, mae, under_reporting_precision_and_recall"
+    },
+    "rf_reg": {
+	"params": {
+            "n_estimators": "[5, 10, 12, 25]"
+	},
+	"metrics": "rmse, mae, under_reporting_precision_and_recall"
+    }
+}

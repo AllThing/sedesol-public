@@ -1,0 +1,262 @@
+sifode_int,actualizacion,number,1,,incorporación a sifode
+sifode_int,afil_imss,number,1,,personas afilidas al imss
+sifode_int,afil_issste,number,1,,personas afilidas al issste
+sifode_int,afil_pemex,number,1,,"personas afilidas a pemex, marina o defensa"
+sifode_int,afil_privado,number,1,,personas afiliadas a una clínica u hospital privado
+sifode_int,afil_sp,number,1,,personas afilidas al seguro popular.
+sifode_int,c_cd_edo_civil,number,1,,estado civil
+sifode_int,c_cd_parentesco,number,2,,parentesco
+sifode_int,c_con_res,number,2,condición  de residencia,condición de residencia
+sifode_int,c_integrante,number,30,abierta,número de renglón del integrante en la encuesta
+sifode_int,desac_210,number,1,,"sagarpa - fomento a la productividad pesquera y acuícola - proyectos integrales de acuacultura, maricultura o pesquero.. año 2014"
+sifode_int,discapacidad,number,2,,integrante con algún tipo de limitación (es)
+sifode_int,edad actual,number,2,abierta,edad calculada al 16 de diciembre del 2015
+sifode_int,ejercicio,number,4,abierta,año fiscal al que corresponde el cuestionario
+sifode_int,estatus_hogar,,,,tipo de hogar
+sifode_int,femp_232,number,1,,stps - coordinación de acciones de vinculación entre los factores de la producción para apoyar el empleo - ferias de empleo - servicio de vinculación laboral. año 2014
+sifode_int,hogares_m,,1,,hogares con personas únicas
+sifode_int,icv_hac1,number,1,,indicador de carencia por hacinamiento
+sifode_int,icv_muros1,number,1,,indicador de carencia del material de muros
+sifode_int,icv_pisos1,number,1,,indicador de carencia del material de piso
+sifode_int,icv_techos1,number,1,,indicador de carencia del material de techo
+sifode_int,ic_ali1,number,1,,indicador de carencia por acceso a la alimentación
+sifode_int,ic_asalud,number,1,,indicador de carencia por acceso a la salud
+sifode_int,ic_cv1,number,1,,carencia en la calidad y espacios de la vivienda
+sifode_int,ic_rezedu,number,1,,indicador de carencia por rezago educativo
+sifode_int,ic_rezedu_3a15,number,,,personas de 3 a 15 años que no asisten a la escuela y no cuentan con la educación básica obligatoria
+sifode_int,ic_rezedu_81,number,,,personas de 16 años o más que nacieron antes de 1982  y que no tiene primaria completa.
+sifode_int,ic_rezedu_82,,,,personas de 16 años o más que nacieron a partir de 1982 y que no tienen secundaria completa.
+sifode_int,ic_sbv1,number,1,,carencia en el acceso a los servicios básicos de la vivienda
+sifode_int,ic_ss,number,1,,indicador de carencia por acceso a la seguridad social
+sifode_int,ic_sspob_am,number,1,,personas de 65 años a mas que no cuentan con acceso a la seguridad social
+sifode_int,ic_sspob_ocup,number,1,,personas ocupadas que no cuentan con acceso a la seguridad social
+sifode_int,ic_sspob_otros,number,1,,personas que no pertenecen a los rubros anteriores y que no cuentan con acceso a la seguridad social
+sifode_int,ic_sspob_pnea,number,1,,personas económicamente no activas que con cuentan con acceso a la seguridad social
+sifode_int,id_mdm_h,number,14,abierta,"identifica hogares únicos, asignado por rm"
+sifode_int,id_mdm_p,number,14,abierta,"identifica personas únicas, asignado por rm"
+sifode_int,id_unico,number,10,abierta,identificador único de persona padrones
+sifode_int,iner_183,number,1,,sagarpa - fomento ganadero - infraestructura y equipamiento para la producción primaria. año 2014
+sifode_int,ingreso_pc,number,1,abierta,ingreso per capita estimado
+sifode_int,inseg_alim_leve,number,1,,personas con inseguridad alimentaria leve
+sifode_int,inseg_alim_moderada,number,1,,personas con inseguridad alimentaria moderada
+sifode_int,inseg_alim_severa,number,1,,personas con inseguridad alimentaria severa
+sifode_int,in_0066_2014,number,1,,se - fondo nacional emprendedor  -  recibe/recibió al menos un apoyo. año 2014
+sifode_int,in_3x1,number,1,,sedesol - programa 3x1 - recibió/ recibe al menos un apoyo del programa 3x1. año 2014
+sifode_int,in_intervenciones,number,1,,recibe al menos un apoyo de algún programa
+sifode_int,in_intervenciones_h,number,1,,al menos un integrante del hogar recibe al menos un apoyo de algún programa
+sifode_int,in_inter_alim,number,1,,"recibe al menos un apoyo de algún programa alimentario (pal, prospera, pasl, ppam)"
+sifode_int,in_inter_alim _h,number,1,,"al menos un integrante del hogar recibe al menos un apoyo de algún programa alimentario (pal, prospera, pasl, ppam)"
+sifode_int,in_p0118_2014,number,1,,sagarpa - programa integral de desarrollo rural - proyecto estratégico seguridad alimentaria - recibió/ recibe al menos un apoyo del programa integral de desarrollo rural. año 2014
+sifode_int,in_paja_2015,number,1,,sedesol - paja - recibe/recibió al menos un apoyo de paja. año 2015
+sifode_int,in_pal,number,1,,sedesol - programa de apoyo alimentario - al menos un integrante del hogar recibe al menos un apoyo del programa de apoyo alimentario. año 2015
+sifode_int,in_pdzp,number,1,,sedesol - al menos un integrante del hogar recibió/ recibe al menos un apoyo. año 2014
+sifode_int,in_pei,number,1,,sedesol - programa de estancias infantiles para apoyar a madres trabajadoras - recibió/ recibe al menos un apoyo del programa de estancias infantiles para apoyar a madres trabajadoras. año 2015
+sifode_int,in_pidr,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - recibió/ recibe al menos un apoyo del programa integral de desarrollo rural. año 2014
+sifode_int,in_prosp,number,1,,sedesol - prospera - al menos un integrante del hogar recibe al menos un apoyo de prospera . año 2015
+sifode_int,in_pvd,number,1,,sedatu - programa de vivienda digna - al menos un integrante del hogar recibió/ recibe al menos un apoyo del programa de vivienda digna. año 2014
+sifode_int,in_pvd_2015_h,number,1,,sedatu - programa de vivienda digna - al menos un integrante del hogar recibió/ recibe al menos un apoyo del programa de vivienda digna. año 2015
+sifode_int,in_pvr,number,1,,sedatu - programa de vivienda rural - al menos un integrante del hogar recibió/ recibe al menos un apoyo del programa de vivienda rural. año 2014
+sifode_int,in_pvr_2015_h,number,1,,sedatu - programa de vivienda rural - al menos un integrante del hogar recibió/ recibe al menos un apoyo del programa de vivienda rural. año 2015
+sifode_int,in_s017_2014,number,1,,se - fomento a la economía social -  recibe/recibió al menos un apoyo. año 2014
+sifode_int,in_s017_2015,number,1,,se - fomento a la economía social -  recibe/recibió al menos un apoyo. año 2015
+sifode_int,in_s048_h,number,1,,sedatu - hábitat - al menos uin integrante del hogar recibió/ recibe al menos un apoyo. año 2014
+sifode_int,in_s176,number,1,,sedesol - pensión para adultos mayores  - recibe/recibió al menos un apoyo. año 2015
+sifode_int,in_s203,number,1,,sedatu - joven emprendedor rural y fondo de tierras - recibió/ recibe al menos un apoyo. año 2015
+sifode_int,in_s241_2014,number,1,,sedesol - seguro de vida para jefas de familia - recibió/recibe al menos un apoyo. año 2014
+sifode_int,isb_agua1,number,1,,indicador de carencia de acceso al agua
+sifode_int,isb_combus1,number,1,,indicador de carencia de servicio de combustible para cocinar
+sifode_int,isb_dren1,number,1,,indicador de carencia de servicio de drenaje
+sifode_int,isb_luz1,number,1,,indicador de carencia de servicio de electricidad
+sifode_int,jerft_33,number,1,,sedatu - programa de apoyo a jóvenes emprendedores agrarios - proyecto productivo. año 2014
+sifode_int,llave_hogar_h           ,varchar2,50,abierta,"identifica encuestas únicas, integrado por el o los folios que identifican a una encuesta de manera única declarados por el programa"
+sifode_int,mapopef_115,number,1,,sagarpa - fomento ganadero - maquinaria y equipo. año 2014
+sifode_int,p0017_8,number,1,,stps - apoyo al empleo - curso de capacitación. año 2015
+sifode_int,p0018_115,number,1,,stps - apoyo al empleo - maquinaria y equipo. año 2015
+sifode_int,p0019_263,number,1,,stps - apoyo al empleo - apoyo económico a la movilidad laboral. año 2015
+sifode_int,p0021_232,number,1,,stps - coordinación de acciones de vinculación entre los factores de la producción para apoyar el empleo - bolsa de trabajo - servicio de vinculación laboral. año 2014
+sifode_int,p0034_143,number,1,,sagarpa - programa integral de desarrollo rural - apoyos a productores. año 2014
+sifode_int,p0048_4,number,1,,sct - programa empleo temporal -  jornal. año 2015
+sifode_int,p0110_100,number,1,,semarnat - fomento para la conservación y el aprovechamiento sustentable de la vida silvestre - insumos para actividades productivas. año 2014
+sifode_int,p0116_115,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - maquinaria y equipo -
+sifode_int,p0116_136,number,1,,"sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - animales, recría de animales y material genético para la prodcuccion de carne, leche, huevo, y otros usos pecuarios"
+sifode_int,p0116_174,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - fertilizantes
+sifode_int,p0116_183,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - infraestructura y equipamiento para la producción primaria
+sifode_int,p0116_189,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - insumos para infraestructura
+sifode_int,p0116_195,number,1,,"sagarpa - programa integral de desarrollo rural -  agricultura familiar periurbana y de traspatio - material vegetativo o semilla para la producción agrícola de oleaginosas, leguminosas, cereales, hortalizas, frutales y nueces, ornamentales y otros cultivos perennes, pastos y zacates"
+sifode_int,p0116_199,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - obras de captación y almacenamiento de agua
+sifode_int,p0116_207,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - pesticidas y otros agroquímicos
+sifode_int,p0116_271,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - reconocimientos. año 2014
+sifode_int,p0116_273,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - apoyo económico para construir instrumentos financieros. año 2014
+sifode_int,p0116_274,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - apoyo económico para estudios. año 2014
+sifode_int,p0116_275,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - apoyo para desastres naturales. año 2014
+sifode_int,p0116_33,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - proyecto productivo. año 2014
+sifode_int,p0116_34,number,1,,sagarpa - programa integral de desarrollo rural - agricultura familiar periurbana y de traspatio - desarrollo de capacidades y formación de capital social. año 2014
+sifode_int,p0118_271,number,1,,sagarpa - programa integral de desarrollo rural - reconocimientos. año 2014
+sifode_int,p0118_273,number,1,,sagarpa - programa integral de desarrollo rural - apoyo económico para construir instrumentos financieros. año 2014
+sifode_int,p0118_274,number,1,,sagarpa - programa integral de desarrollo rural - apoyo económico para estudios. año 2014
+sifode_int,p0118_275,number,1,,sagarpa - programa integral de desarrollo rural - apoyo para desastres naturales. año 2014
+sifode_int,p0118_33,number,1,,sagarpa - programa integral de desarrollo rural - proyecto productivo. año 2014
+sifode_int,p0118_34,number,1,,sagarpa - programa integral de desarrollo rural - desarrollo de capacidades y formación de capital social. año 2014
+sifode_int,p0131_104,number,1,,sagarpa - fomento a la agricultura - apoyo al ingreso de los productores agrícolas. año 2014
+sifode_int,p0132_183,number,1,,sagarpa - fomento a la agricultura - infraestructura y equipamiento para la producción primaria. año 2014
+sifode_int,p0136_182,number,1,,sagarpa - fomento a la agricultura - infraestructura y equipamiento bajo el sistema de agricultura protegida. año 2014
+sifode_int,p0140_8,number,1,,sagarpa - fomento a la productividad pesquera y acuícola - curso de capacitación. año 2014
+sifode_int,p0143_234,number,1,,sagarpa - fomento ganadero - apoyo para incentivar la productividad ganadera. año 2014
+sifode_int,p0148_184,number,1,,sagarpa - productividad y competitividad agroalimentaria - infraestructura y equipamiento para postproducción. año 2014
+sifode_int,p0170_111,number,1,,sedesol - comedores comunitarios - asistencia alimentaria en espacio común. año 2015
+sifode_int,p0171_233,number,1,,"semarnat - programa nacional forestal - desarrollo forestal - apoyo para cuidar, mejorar y aprovechar sustentablemente los recursos forestales presentes en los ecosistemas. año 2014"
+sifode_int,p0172_233_2014,number,1,,"semarnat - programa nacional forestal pago por servicios ambientales - apoyo para cuidar, mejorar y aprovechar sustentablemente los recursos forestales presentes en los ecosistemas. año 2014"
+sifode_int,p0172_233_2015,number,1,,"semarnat - programa nacional forestal pago por servicios ambientales - apoyo para cuidar, mejorar y aprovechar sustentablemente los recursos forestales presentes en los ecosistemas. año 2015"
+sifode_int,p0219_264,number,1,,"sep - atención a la demanda de educación para adultos (inea) - servicios educativos de alfabetización, personas de 15 años y mas. año 2015"
+sifode_int,p0220_265,number,1,,"sep - atención a la demanda de educación para adultos (inea) - servicios educativos de primaria, personas de 15 años y mas. año 2015"
+sifode_int,p0221_266,number,1,,"sep - atención a la demanda de educación para adultos (inea) - servicios educativos de secundaria, personas de 15 años y mas. año 2015"
+sifode_int,p0228_8,number,1,,sagarpa - programa integral de desarrollo rural - curso de capacitación. año 2014
+sifode_int,p066_281,number,1,,se - fondo nacional emprendedor - subsidio. año 2015
+sifode_int,p3x1_11,number,1,,sedesol - programa 3x1 - toma de agua. año 2014
+sifode_int,p3x1_16,number,1,,sedesol - programa 3x1 - letrina. año 2014
+sifode_int,p3x1_174,number,1,,sedesol - programa 3x1  - fertilizantes. año 2014
+sifode_int,p3x1_21,number,1,,sedesol - programa 3x1 - metros cuadrados de piso firme. año 2014
+sifode_int,p3x1_234,number,1,,sedesol - programa 3x1  - apoyo para incentivar la productividad ganadera. año 2014
+sifode_int,p3x1_27,number,1,,sedesol - programa 3x1 - apoyo por concepto de beca. año 2014
+sifode_int,p3x1_33,number,1,,sedesol - programa 3x1 -  proyectos productivos. año 2014
+sifode_int,p3x1_38,number,1,,sedesol - programa 3x1  - apoyo para consumo de energía. año 2014
+sifode_int,p3x1_51,number,1,,sedesol - programa 3x1  - toma domiciliaria de drenaje. año 2014
+sifode_int,p3x1_54,number,1,,sedesol - programa 3x1  - electrificación pública. año 2014
+sifode_int,p3x1_7,number,1,,sedesol - programa 3x1 - lamina. año 2014
+sifode_int,p3x1_73,number,1,,sedesol - programa 3x1 - metros cuadrados de techo de losa de concreto. año 2014
+sifode_int,p3x1_78,number,1,,sedesol - programa 3x1  - adquisición de vivienda. año 2014
+sifode_int,p3x1_8,number,1,,sedesol - programa 3x1 - curso de capacitación. año 2014
+sifode_int,p3x1_80,number,1,,sedesol - programa 3x1 - mejoramiento de vivienda. año 2014
+sifode_int,paeib_27,number,1,,cdi - programa de apoyo a la educación indígena - apoyo por concepto de beca. año 2015
+sifode_int,pei_42,number,1,,sedesol - programa de estancias infantiles para apoyar a madres trabajadoras -  cuidado y atención infantil a niños. año 2015
+sifode_int,pei_44,number,1,,sedesol - programa de estancias infantiles para apoyar a madres trabajadoras - impulso a los servicios de cuidado y atención infantil. año 2015
+sifode_int,pei_47,number,1,,sedesol - programa de estancias infantiles para apoyar a madres trabajadoras - apoyo a madres trabajadoras y padres solos. año 2015
+sifode_int,personas_m,,1,,personas únicas
+sifode_int,petsem_4,number,1,,semarnat - empleo temporal -  jornal. año 2015
+sifode_int,pet_4,number,1,,sedesol - pet - jornal. año 2015
+sifode_int,pimaff_33,number,1,,sagarpa - programa de incentivos  para productores de maíz y frijol - proyecto productivo. año 2014
+sifode_int,pobreza,number,1,,población en pobreza ( personas  en hogares donde al menos una de ellas es pobre)
+sifode_int,pob_extrem,number,1,,población en pobreza extrema   (personas en hogares donde al menos una de ellas es pobre extrema)
+sifode_int,pob_extrem_alim,number,1,,población en pobreza extrema con carencia de acceso a la alimentación. (personas en hogares donde al menos una de ellas es pobre extrema con carencia de acceso a la alimentación)
+sifode_int,pob_lb,number,1,,ingreso estimado del hogar por debajo de la línea de bienestar
+sifode_int,pob_lbm,number,1,,ingreso estimado del hogar por debajo de la línea de bienestar mínimo
+sifode_int,pop_33,number,1,,sedesol - pop -  proyecto productivo. año 2014
+sifode_int,pop_33_2015,number,1,,sedesol - pop -  proyecto productivo. año 2015
+sifode_int,procafef_103,number,1,,sagarpa - fomento a la agricultura - apoyo para la producción de café . año 2014
+sifode_int,procodesf_33,number,1,,semarnat - programa de conservación para el desarrollo sostenible -  proyecto productivo. año 2014
+sifode_int,propor_234,number,1,,sagarpa - fomento ganadero - apoyo para incentivar la productividad ganadera. año 2014
+sifode_int,prosp_27,number,1,,sedesol - prospera - becas educativas. año 2015
+sifode_int,prosp_35,number,1,,sedesol - prospera - apoyo alimentario. año 2015
+sifode_int,prosp_36,number,1,,sedesol - prospera - útiles escolares. año 2015
+sifode_int,prosp_37,number,1,,sedesol - prospera - apoyo para adultos mayores. año 2015
+sifode_int,prosp_38,number,1,,sedesol - prospera - apoyo para consumo de energía. año 2015
+sifode_int,prosp_39,number,1,,sedesol - prospera - apoyo vivir mejor. año 2015
+sifode_int,prosp_41,number,1,,sedesol - prospera - apoyo infantil vivir mejor. año 2015
+sifode_int,pvd_13,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: tinaco. año 2014
+sifode_int,pvd_13_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: tinaco. año 2015
+sifode_int,pvd_16,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: letrina. año 2014
+sifode_int,pvd_16_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: letrina. año 2015
+sifode_int,pvd_21,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: metros cuadrados de piso firme. año 2014
+sifode_int,pvd_21_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: metros cuadrados de piso firme. año 2015
+sifode_int,pvd_26,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: metros cuadrados de muro. año 2014
+sifode_int,pvd_26_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: metros cuadrados de muro. año 2015
+sifode_int,pvd_28,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: estufa / fogón año 2014
+sifode_int,pvd_28_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: estufa / fogón. año 2015
+sifode_int,pvd_48,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: vivienda rural. año 2014
+sifode_int,pvd_48_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: vivienda rural. año 2015
+sifode_int,pvd_61,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: metros cuadrados de aplanado. año 2014
+sifode_int,pvd_61_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: metros cuadrados de aplanado. año 2015
+sifode_int,pvd_62,number,1,,sedatu - programa de vivienda digna -  construcción de unidad básica de vivienda: ampliación simple de vivienda. año 2014
+sifode_int,pvd_62_2015,number,1,,sedatu - programa de vivienda digna - ampliación simple de vivienda. año 2015
+sifode_int,pvd_63,number,1,,sedatu - programa de vivienda digna -  construcción de unidad básica de vivienda: ampliación combinada de vivienda. año 2014
+sifode_int,pvd_63_2015,number,1,,sedatu - programa de vivienda digna - ampliación combinada de vivienda. año 2015
+sifode_int,pvd_68,number,1,,sedatu - programa de vivienda digna  -  construcción de unidad básica de vivienda: instalación eléctrica particular. año 2014
+sifode_int,pvd_68_2015,number,1,,sedatu - programa de vivienda digna  - instalación eléctrica particular. año 2015
+sifode_int,pvd_69,number,1,,sedatu - programa de vivienda digna  -  construcción de unidad básica de vivienda: instalación hidráulica particular. año 2014
+sifode_int,pvd_69_2015,number,1,,sedatu - programa de vivienda digna  - instalación hidráulica particular. año 2015
+sifode_int,pvd_72,number,1,,sedatu - programa de vivienda digna  -  construcción de unidad básica de vivienda: metros cuadrados de techo de lamina. año 2014
+sifode_int,pvd_72_2015,number,1,,sedatu - programa de vivienda digna  - metros cuadrados de techo de lamina. año 2015
+sifode_int,pvd_73,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda:  metros cuadrados de techo de losa de concreto. año 2014
+sifode_int,pvd_73_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda:  metros cuadrados de techo de losa de concreto. año 2015
+sifode_int,pvd_75,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: - vivienda urbana. año 2014
+sifode_int,pvd_75_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: - vivienda urbana. año 2015
+sifode_int,pvd_76_2015,number,1,,sedatu - programa de vivienda digna - construcción de unidad básica de vivienda: instalación sanitaria. año 2015
+sifode_int,pvr_16,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: letrina. año 2014
+sifode_int,pvr_16_2015,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: letrina. año 2015
+sifode_int,pvr_21,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de piso firme. año 2014
+sifode_int,pvr_21_2015,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de piso firme. año 2015
+sifode_int,pvr_26,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de muro. año 2014
+sifode_int,pvr_26_2015,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de muro. año 2015
+sifode_int,pvr_28,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: estufa / fogón. año 2014
+sifode_int,pvr_28_2015,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: estufa / fogón. año 2015
+sifode_int,pvr_48,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: vivienda rural. año 2014
+sifode_int,pvr_48_2015,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: vivienda rural. año 2015
+sifode_int,pvr_61,number,1,,sedatu - programa de vivienda rurall - construcción de unidad básica de vivienda rural: metros cuadrados de aplanado. año 2014
+sifode_int,pvr_61_2015,number,1,,sedatu - programa de vivienda rurall - construcción de unidad básica de vivienda rural: metros cuadrados de aplanado. año 2015
+sifode_int,pvr_62,number,1,,sedatu - programa de vivienda rural - ampliación simple de vivienda. año 2014
+sifode_int,pvr_62_2015,number,1,,sedatu - programa de vivienda rural - ampliación simple de vivienda. año 2015
+sifode_int,pvr_63,number,1,,sedatu - programa de vivienda rural - ampliación combinada de vivienda. año 2014
+sifode_int,pvr_63_2015,number,1,,sedatu - programa de vivienda rural - ampliación combinada de vivienda. año 2015
+sifode_int,pvr_72,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de techo de lamina. año 2014
+sifode_int,pvr_72_2015,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de techo de lamina. año 2015
+sifode_int,pvr_73,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de techo de losa de concreto. año 2014
+sifode_int,pvr_73_2015,number,1,,sedatu - programa de vivienda rural - construcción de unidad básica de vivienda rural: metros cuadrados de techo de losa de concreto. año 2014
+sifode_int,reprep_136,number,1,,"sagarpa - fomento ganadero - animales, recría de animales y material genético para la producción de carne, leche, huevo, y otros usos pecuarios. año 2014"
+sifode_int,s016_280_2014,number,1,,se - fondo de microfinanciamiento a mujeres rurales - microcrédito para actividades productivas. año 2014
+sifode_int,s016_280_2015,number,1,,se - fondo de microfinanciamiento a mujeres rurales - microcrédito para actividades productivas. año 2015
+sifode_int,s017_273,number,1,,se - fomento a la economía social - apoyo económico para construir instrumentos financieros. año 2015
+sifode_int,s017_33,number,1,,se - fomento a la economía social - proyecto productivo. año 2015
+sifode_int,s017_34,number,1,,se - fomento a la economía social - desarrollo de capacidades y formación de capital social. año 2015
+sifode_int,s021_280_2014,number,1,,se - programa nacional de financiamiento al microempresario - microcrédito para actividades productivas. año 2014
+sifode_int,s021_280_2015,number,1,,se - programa nacional de financiamiento al microempresario - microcrédito para actividades productivas. año 2015
+sifode_int,s048_49,number,1,,sedatu - hábitat - pavimento. año 2014
+sifode_int,s048_50,number,1,,sedatu - hábitat - drenaje. año 2014
+sifode_int,s048_52,number,1,,sedatu - hábitat - red de agua potable. año 2014
+sifode_int,s048_54,number,1,,sedatu - hábitat - electrificación publica. año 2014
+sifode_int,s052_2,number,1,,"sedesol - programa de abasto social de leche a cargo de liconsa, s.a. de c.v. - litro de leche. año 2015"
+sifode_int,s052_2_h,number,1,,"sedesol - programa de abasto social de leche a cargo de liconsa, s.a. de c.v. - al menos un integrante del hogar recibe/recibió apoyo. año 2015"
+sifode_int,s057_34,number,1,,sedesol - fonart - desarrollo de capacidades y formación de capital social. año 2014
+sifode_int,s057_34_2015,number,1,,sedesol - fonart - desarrollo de capacidades y formación de capital social. año 2015
+sifode_int,s065_23,number,1,,sedesol - paja - estímulo educativo. año 2015
+sifode_int,s065_43,number,1,,sedesol - paja - apoyo al arribo. año 2015
+sifode_int,s118_35,number,1,,sedesol - programa de apoyo alimentario - apoyo para alimentación. año 2015
+sifode_int,s118_39,number,1,,sedesol - programa de apoyo alimentario - apoyo vivir mejor. año 2015
+sifode_int,s118_41,number,1,,sedesol - programa de apoyo alimentario - programa de apoyo alimentario -apoyo infantil vivir mejor. año 2015
+sifode_int,s176_235,number,1,,sedesol - pensión para adultos mayores - pago de marcha. año 2015
+sifode_int,s176_236,number,1,,sedesol - pensión para adultos mayores - apoyo para inclusión financiera. año 2015
+sifode_int,s176_37,number,1,,sedesol - pensión para adultos mayores - apoyo para adulto mayor. año 2015
+sifode_int,s203_278,number,1,,sedatu - joven emprendedor rural y fondo de tierras - apoyo para proyecto escolar. año 2015
+sifode_int,s203_279,number,1,,sedatu - joven emprendedor rural y fondo de tierras - apoyo para proyecto agroempresarial. año 2015
+sifode_int,s216_11,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - toma de agua. año 2014
+sifode_int,s216_13,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - tinaco. año 2014
+sifode_int,s216_15,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - celdas solares. año 2014
+sifode_int,s216_16,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - letrina. año 2014
+sifode_int,s216_19,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - huerto personal. año 2014
+sifode_int,s216_21,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - metros cuadrados de piso firme. año 2014
+sifode_int,s216_238,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - cuarto adicional. año 2014
+sifode_int,s216_26,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - metros cuadrados de muro. año 2014
+sifode_int,s216_28,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - estufas ecológicas con chimenea. año 2014
+sifode_int,s216_50,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - drenaje. año 2014
+sifode_int,s216_51,number,,,sedesol - programa para el desarrollo de zonas prioritarias - toma domiciliaria de drenaje. año 2014
+sifode_int,s216_52,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - red de agua potable. año 2014
+sifode_int,s216_54,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - electrificación publica. año 2014
+sifode_int,s216_7,number,1,,sedesol - programa para el desarrollo de zonas prioritarias - lamina. año 2014
+sifode_int,s241_95,number,1,,sedesol - seguro de vida para jefas de familia - apoyo a niños en orfandad. año 2015
+sifode_int,seg_alim,number,1,,personas que cuentan con seguridad alimentaria
+sifode_int,sepo_87,number,1,,salud - seguro popular - atención a la salud. año 2015
+sifode_int,s_cve_entidad_federativa,varchar2,2,abierta,clave de entidad
+sifode_int,s_cve_localidad,varchar2,9,abierta,clave de localidad
+sifode_int,s_cve_municipio,varchar2,5,abierta,clave de municipio
+sifode_int,s_c_cd_edo_nac,varchar2,2,,entidad federativa de nacimiento
+sifode_int,s_c_cd_sexo,number,2,,sexo
+sifode_int,s_fch_nacimiento,date,,abierta,fecha de nacimiento
+sifode_int,s_nb_curp,varchar2,18,abierta,curp
+sifode_int,s_nb_nombre,varchar2,50,abierta,nombre
+sifode_int,s_nb_primer_ap,varchar2,50,abierta,primer apellido
+sifode_int,s_nb_segundo_ap,varchar2,50,abierta,segundo apellido
+sifode_int,s_nom_entidad_federativa,varchar2,50,abierta,entidad federativa
+sifode_int,s_nom_localidad,varchar2,50,abierta,localidad
+sifode_int,s_nom_municipio,varchar2,50,abierta,municipio o delegación
+sifode_int,s_tie_curp,number,2,,tiene curp
+sifode_int,s_tipoloc,varchar2,1,,ámbito de la localidad
+sifode_int,val_nb_renapo,number,2,,validación de curp con renapo

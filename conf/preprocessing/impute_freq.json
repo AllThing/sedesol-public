@@ -1,0 +1,15 @@
+{
+    "remove_constants": {
+    },
+    "impute_categorical": {
+    	"strategy": "most_frequent"
+    },
+    "impute_numeric": {
+	"strategy": "median",
+	"axis": 0
+    },
+    "get_dummies": {
+	"dummy_na": true
+    },
+    "standard_scaler": "pass"
+}
